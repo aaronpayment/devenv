@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+TXT="$(cat)"
+OSC52_S="\033]52;c;"
+OSC52_E="\a"
+
+echo -ne "${OSC52_S}$(echo -ne ${TXT} | base64)${OSC52_E}"

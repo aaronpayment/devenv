@@ -3,3 +3,5 @@
 	name = aaronpayment
 [merge]
 	ff = only
+[pull]
+	rebase = true

@@ -1,0 +1,9 @@
+# run devenv -i to setup environment
+
+# iterm2 to configure the terminal application
+
+# on the server to setup the shell
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# install powerlevel10K
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k

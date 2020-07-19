@@ -1,2 +1,5 @@
 export PATH="$HOME/bin:$PATH"
+
+# Solarized Dark LSCOLORS
+# https://github.com/seebi/dircolors-solarized/issues/10#issuecomment-381545995
 export LSCOLORS=exfxfeaeBxxehehbadacea

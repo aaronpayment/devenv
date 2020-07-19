@@ -1,1 +1,1 @@
-export PATH="$HOME/bin:$PATH"
+[[ -r $HOME/.bash_extra ]] && source $HOME/.bash_extra

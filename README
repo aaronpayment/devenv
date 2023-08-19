@@ -1,7 +1,9 @@
 # run devenv -i to setup environment
 
 # iterm2 to configure the terminal application
-
+ - in iterm change the general->preferences set the load preferences folder to the repo iterm2 location ( don't save ). Exit and restart iterm2 ( may need to git restore the file )
+ - powerline10k install can install the font. but the font needs to be installed on the terminal application ( which may not be the same as the server )
+ 
 # on the server to setup the shell
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

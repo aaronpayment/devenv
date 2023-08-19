@@ -1,0 +1,21 @@
+- login to apple id and app store
+- disabled icloud sync settings
+- DO NOT change the user profile pic it updates apple id pic too
+- install homebrew /bin/bash -c "$(curl -fsSL 
+https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  - it also installs the needed xcode stuff
+- insall chrome: brew install --cask google-chrome
+- install iterm2: brew install --cask iterm2
+- install ansible: brew install anisble
+
+// ---- boostrap script
+//if local then need to 
+- install homebrew
+- install ansible: brew install ansible
+// if ansible remote
+// ansible task to run the bootstrap script.
+
+//---- Post bootstrap script, then ideally we run ansible to install everything
+- mac settings that have been backed up. ( need to figure out how to backup the system settings
+- chome, iterm2,
+

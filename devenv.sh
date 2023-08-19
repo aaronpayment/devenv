@@ -2,6 +2,7 @@
 
 install() {
     echo "--- Install ---"
+    # https://stackoverflow.com/questions/35006457/choosing-between-0-and-bash-source
     local devenvbase="$(cd $(dirname ${BASH_SOURCE}) && pwd)"
     local dotfiles="${devenvbase}/dotfiles/*"
     local bin="${devenvbase}/bin"

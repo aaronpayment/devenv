@@ -1,4 +1,5 @@
 export PATH="$HOME/bin:$PATH"
+export EDITOR=emacs
 
 # Solarized Dark LSCOLORS
 # https://github.com/seebi/dircolors-solarized/issues/10#issuecomment-381545995

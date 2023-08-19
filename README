@@ -9,3 +9,9 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # install powerlevel10K
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+#######
+Solarized Notes:
+iterm2 solarized: ... 
+Bash/Zsh directory colors: https://github.com/seebi/dircolors-solarized
+Emacs solarized: https://github.com/sellout/emacs-color-theme-solarized

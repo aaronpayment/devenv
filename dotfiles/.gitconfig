@@ -1,7 +1,45 @@
 [user]
 	email = aaronpayment@users.noreply.github.com
 	name = aaronpayment
-[merge]
-	ff = only
+
 [pull]
 	rebase = true
+
+[merge]
+	ff = only
+	conflictstyle = diff3
+
+[rebase]
+	autoStash = true
+	autosquash = true
+
+[stash]
+	showPatch = true
+	showStat = false
+	showIncludeUntracked = false
+
+[alias]
+        can = commit --amend --no-edit
+        ca = commit --amend
+        ci = commit -s
+        cf = commit --fixup
+        cp = cherry-pick
+        rb = rebase
+        rbi = rb -i HEAD~5
+        rbq = rb HEAD~5
+        rbc = rebase --continue
+        rba = rebase --abort
+        co = checkout
+        br = branch
+        st = status
+        lo = log --graph --pretty=format:'%C(yellow)%h%Creset %C(cyan)(%ch)%Creset %s %C(blue)<%an>%Creset%C(auto)%d%Creset'
+        lob = lo --branches=* --tags=* --remotes=*
+        lgb = lob -n 10
+        lg = lo -n 10
+        pom = pull origin master
+
+[color "decorate"]
+        head = magenta
+        remote = red
+        tag = green
+        branch = green

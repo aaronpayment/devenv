@@ -25,8 +25,8 @@
         cf = commit --fixup
         cp = cherry-pick
         rb = rebase
-        rbi = rb -i HEAD~5
-        rbq = rb HEAD~5
+        rbi = rb -i HEAD~2
+        rbq = !git -c core.editor=cat rbi
         rbc = rebase --continue
         rba = rebase --abort
         co = checkout

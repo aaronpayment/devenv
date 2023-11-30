@@ -4,3 +4,7 @@ export EDITOR=emacs
 # Solarized Dark LSCOLORS
 # https://github.com/seebi/dircolors-solarized/issues/10#issuecomment-381545995
 export LSCOLORS=exfxfeaeBxxehehbadacea
+
+# oh-myzsh disable the less pager back to bash behavior
+# https://superuser.com/questions/820943/typing-git-log-oneline-in-oh-my-zsh-pipes-to-less
+unset LESS
